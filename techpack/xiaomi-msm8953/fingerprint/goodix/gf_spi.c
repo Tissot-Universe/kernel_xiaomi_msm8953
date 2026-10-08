@@ -245,10 +245,10 @@ static void nav_event_input(struct gf_dev *gf_dev, gf_nav_event_t nav_event) {
 	case GF_NAV_FINGER_UP:
 		break;
 	case GF_NAV_DOWN:
-		nav_input = GF_NAV_INPUT_DOWN;
+		nav_input = GF_NAV_INPUT_UP;
 		break;
 	case GF_NAV_UP:
-		nav_input = GF_NAV_INPUT_UP;
+		nav_input = GF_NAV_INPUT_DOWN;
 		break;
 	case GF_NAV_LEFT:
 		nav_input = GF_NAV_INPUT_LEFT;
